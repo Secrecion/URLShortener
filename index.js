@@ -1,7 +1,7 @@
 require('dotenv').config();
 const urlparser= require ('url');
 const express = require('express');
-const dns = require('node:dns');
+const dns = require('dns');
 const cors = require('cors');
 const app = express();
 const mongoose  = require('mongoose');
